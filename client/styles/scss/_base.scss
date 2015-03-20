@@ -1,0 +1,44 @@
+.container {
+  .row {
+    color:#4D4D4D;
+    .col-md-1 {
+      width: 20px;
+      height: 638px;
+      background-image: url(../../images/background.png);
+      background-repeat: repeat-y;
+    }
+    .col-md-8 {
+      .base-section {
+        margin-left:10px;
+        padding-top: 20px;
+        h3 {
+          font-style: italic;
+          line-height: 35px;
+        }
+        p {
+          line-height: 20px;
+        }
+      }
+    }
+    .col-md-3 {
+      nav {
+        padding-top:40px;
+        ul {
+          margin-left: 50px;
+          font-size: 14px;
+          li {
+            list-style-type: none;
+            line-height: 30px;
+          }
+          a {
+            text-decoration: none;
+            color:#AEAEAE;
+            &:hover {
+              color: #575757;
+            }
+          }
+        }
+      }
+    }
+  }
+}

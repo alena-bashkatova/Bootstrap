@@ -1,1 +1,87 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="client/styles/css/index.css">
+    <link rel="stylesheet" href="client/bootstrap/css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <header class="row">
+        <img class="col-md-4 pull-left" src="client/images/logo.jpg" alt="logo"/>
+        <div class="dropdown">
+        <button type="button" class="visible-xs visible-sm btn btn-warning btn-lg col-md-2 pull-right">
+            <span class="glyphicon glyphicon-th"></span> Menu
+        </button>
+        <ul class="col-md-8 pull-right visible-md visible-lg">
+            <li class="col-md-2"><a href="/">Home</a></li>
+            <li class="col-md-2"><a href="#">About</a></li>
+            <li class="col-md-2 dropdown">
+                <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">Services
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Item1</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Item2</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Item3</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Item4</a></li>
+                </ul>
+            </li>
+            <li class="col-md-2"><a href="#">Blog</a></li>
+            <li class="col-md-2 dropdown">
+                <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown">News
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Today</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Week</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">All</a></li>
+                </ul>
+            </li>
+            <li class="col-md-2"><a href="#">Contacts</a></li>
+        </ul>
+            </div>
+    </header>
+
+
+    <main>
+        <h1 class="text-danger">Lorem Ipsum</h1>
+        <p class="text-muted">Nullam id dolor id nibh ultricies vehicula ut id elit.
+            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+            Etiam porta sem malesuada magna mollis euismod.
+            Donec ullamcorper nulla non metus auctor fringilla.</p>
+        <div class="row">
+            <figure class="col-md-4">
+                <img src="client/images/avatar.png" alt="avatar">
+                <figcaption>
+                    <h3 class="bg-danger">Maecenas</h3>
+                    <p class="text-muted">Sed diam eget risus varius blandit sit amet non magna.</p>
+                </figcaption>
+            </figure>
+            <figure class="col-md-4">
+                <img src="client/images/avatar.png" alt="avatar">
+                <figcaption>
+                    <h3 class="bg-danger">Maecenas</h3>
+                    <p class="text-muted">Sed diam eget risus varius blandit sit amet non magna.</p>
+                </figcaption>
+            </figure>
+            <figure class="col-md-4">
+                <img src="client/images/avatar.png" alt="avatar">
+                <figcaption>
+                    <h3 class="bg-danger">Maecenas</h3>
+                    <p class="text-muted">Sed diam eget risus varius blandit sit amet non magna.</p>
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+</div>
+<footer class="row">
+    <p class="col-md-12">Copiright&copy; Etiam porta</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="client/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
